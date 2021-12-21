@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sen:wght@400;700&display=swap');
+
+* {
+    color: #fff;
+    margin: 0;
+    font-family: 'Sen', Verdana, sans-serif;
+}
+
+body {
+    background-color: #1F1F20;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h1 {
+    font-size: 3.5em;
+    color: #E92828;
+}
+
+.container h2 {
+    margin-top: 5px;
+    font-size: 1.5em;
+}
+
+button {
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 3%;
+    background-color: #E92828;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: rgb(236, 236, 236);
+}
+
+button:hover {
+    transition-duration: 0.5s;
+    /* opacity: .7; */
+    background-color: rgb(182, 29, 29);
+}
